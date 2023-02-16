@@ -12,7 +12,7 @@
     "debeTu",
     "deudas"
   ],
-  "author": "Angel Gonzalez",
+  "author": "Angela Lorenzo",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",

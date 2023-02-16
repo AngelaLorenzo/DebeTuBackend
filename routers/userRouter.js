@@ -8,7 +8,7 @@ userRouter.get('/me',
     passport.authenticate('jwt', {session:false}),
     userController.me)
 // listar un usuario a partir de su id
-// http://localhost:3000/user/9548uhgy945h9
+// import.meta.env.VITE_BACKEND+/user/9548uhgy945h9
 userRouter.get('/:id', userController.findById)
 // añadir un nuevo usuario
 userRouter.post('/', userController.save)
